@@ -1,28 +1,38 @@
 {
-    "id": "2089e7fe-30f0-4853-8e79-10679ca803d2",
+    "id": "43d3e16f-0ebf-4adb-978f-f50015d38e09",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_shot",
+    "name": "obj_enemy",
     "eventList": [
         {
-            "id": "0f06dd6e-3413-4662-876a-c2832a274ef5",
+            "id": "96a312ab-193b-41bd-a681-5d0965997eff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "43d3e16f-0ebf-4adb-978f-f50015d38e09"
+        },
+        {
+            "id": "e36202ea-2074-4d60-a71d-63c1e4373dee",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "2089e7fe-30f0-4853-8e79-10679ca803d2"
+            "m_owner": "43d3e16f-0ebf-4adb-978f-f50015d38e09"
         },
         {
-            "id": "1a198b17-1848-45a5-8653-3e197c779ed7",
+            "id": "b53e3f27-ff93-4b7e-91f5-136a3177fe8d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "2089e7fe-30f0-4853-8e79-10679ca803d2",
             "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "2089e7fe-30f0-4853-8e79-10679ca803d2"
+            "eventtype": 4,
+            "m_owner": "43d3e16f-0ebf-4adb-978f-f50015d38e09"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "4b388d62-1390-439d-8fdb-078af6f780b6",
+            "id": "cfeb60d0-c0bb-48e1-94c4-ec1cba4d74f0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
-            "varName": "my_speed",
+            "value": "0",
+            "varName": "variable_name",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "1008ab17-a52c-4989-8bae-1102fdb6dbde",
+    "spriteId": "72da314c-bdd8-4db5-989d-d8b337003c9d",
     "visible": true
 }

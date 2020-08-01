@@ -10,5 +10,7 @@ if (_shoot_input) {
 	firing_y_offset = 1;
 	alarm[0] = 10;
 	
-	instance_create_layer(x, y-4, layer, obj_shot);
+	var _x = my_facing == FACING.LEFT ? x-1 : x;
+	
+	instance_create_layer(_x, y-4, layer, obj_shot);
 }
