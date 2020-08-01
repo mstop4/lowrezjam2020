@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "6669f95f-680e-4d1e-b9df-f5a516343da9",
-            "Value": {
-                "id": "8daf0f28-77da-4441-b4d2-8fd874e5d8a1",
-                "resourcePath": "objects\\obj_blur_manager\\obj_blur_manager.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6a69e9b5-3d73-4fc3-8a3c-99351a37ca89",
             "Value": {
                 "id": "8d7ee53e-9d48-4a6d-91c8-ad341a943c2f",
@@ -167,11 +159,27 @@
             }
         },
         {
+            "Key": "7366762a-231c-4ba1-98ab-f05f5d8e9bb1",
+            "Value": {
+                "id": "a6718826-8e21-46dd-a8df-ca56bd1249cd",
+                "resourcePath": "shaders\\shd_fade\\shd_fade.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "17455f05-73f2-44ef-99ba-1bc50bc59014",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "75e07b7c-4ba0-41c2-b275-3d2e9062999e",
+            "Value": {
+                "id": "14673bd5-b7da-4d35-a83c-06d9a753bcc0",
+                "resourcePath": "objects\\obj_blur_manager\\obj_blur_manager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "b35064aa-f309-4fd0-b690-30f888cf326e",
+            "Value": {
+                "id": "2636f116-88b6-4607-9c4a-2ce170d20445",
+                "resourcePath": "objects\\obj_test\\obj_test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c7f6ea8f-4033-44e5-b490-393f74fb0479",
             "Value": {
                 "id": "7f0b5db1-264c-4704-9d38-7944a9004dc3",
@@ -324,6 +340,14 @@
                 "id": "7bb972de-a422-473a-9676-aba693d4ad0f",
                 "resourcePath": "views\\e8bdebee-508f-4391-9e95-4e8a2047b5c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f36b1edc-99c8-4f1f-afc6-9de645370830",
+            "Value": {
+                "id": "ee58e3e8-2d45-4cd3-9910-a6c1b969dd1f",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

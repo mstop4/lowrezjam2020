@@ -1,1 +1,1 @@
-draw_self_floor();
+draw_self_floor(1);
