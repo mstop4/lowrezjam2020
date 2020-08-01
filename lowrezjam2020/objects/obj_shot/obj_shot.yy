@@ -5,16 +5,6 @@
     "name": "obj_shot",
     "eventList": [
         {
-            "id": "0f06dd6e-3413-4662-876a-c2832a274ef5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "2089e7fe-30f0-4853-8e79-10679ca803d2"
-        },
-        {
             "id": "1a198b17-1848-45a5-8653-3e197c779ed7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -53,7 +43,21 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "2",
-            "varName": "my_speed",
+            "varName": "speed",
+            "varType": 0
+        },
+        {
+            "id": "a9b487a8-d4d0-4842-b2e2-60c9ffbd2152",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "90",
+            "varName": "direction",
             "varType": 0
         }
     ],

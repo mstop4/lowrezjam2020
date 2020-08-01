@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2fc600be-d8aa-43de-94c9-a8269bb2a458",
+            "Value": {
+                "id": "80ce57bf-f47d-41b4-ac49-2cef4a19a3d4",
+                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c2ca481-6108-4d80-b1e9-9671ab12084b",
             "Value": {
                 "id": "b10f7cce-6419-4e9b-adcd-232325073f20",
@@ -100,6 +108,14 @@
                 "id": "99273c04-d4d0-452a-8565-fa384032fc8c",
                 "resourcePath": "views\\583402ad-0d10-43bd-8530-d9f16b0cd525.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59d71c64-5f7f-41d6-817c-3a5445f1dee5",
+            "Value": {
+                "id": "f53622f8-f7ad-4401-8688-987964823f86",
+                "resourcePath": "scripts\\draw_self_floor\\draw_self_floor.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -215,6 +231,14 @@
             }
         },
         {
+            "Key": "a62af67e-4084-4896-a1ff-d734b28e1a8d",
+            "Value": {
+                "id": "34d5a007-c865-425c-b06d-4f505db5f85c",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8b452edf-fad8-4d78-aade-535070f88a04",
@@ -320,7 +344,8 @@
         }
     ],
     "script_order": [
-        "25d8d21f-cf3b-4e45-93ef-ea5deeeb5664"
+        "25d8d21f-cf3b-4e45-93ef-ea5deeeb5664",
+        "59d71c64-5f7f-41d6-817c-3a5445f1dee5"
     ],
     "tutorial": ""
 }
