@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3b75ff48-e879-4740-a7b9-8b42afc0886f",
+            "Value": {
+                "id": "09e1202a-51d9-466d-88a8-a8c29fb2a47b",
+                "resourcePath": "sprites\\spr_bullet_trail\\spr_bullet_trail.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c2ca481-6108-4d80-b1e9-9671ab12084b",
             "Value": {
                 "id": "b10f7cce-6419-4e9b-adcd-232325073f20",
@@ -287,6 +295,22 @@
             }
         },
         {
+            "Key": "d391ad08-e8b3-4ff0-acc0-e9c9f8d0d079",
+            "Value": {
+                "id": "6f899f9f-723b-446d-9dc6-8e231709b396",
+                "resourcePath": "objects\\obj_particle_manager\\obj_particle_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4c5a2de-1ea9-4335-b38d-f905fd6c3a8b",
+            "Value": {
+                "id": "a15ff826-0cd4-470f-b0bf-9048bf3552ed",
+                "resourcePath": "objects\\obj_enemy_manager\\obj_enemy_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d66c9a72-78fc-4257-9eed-e6c74b1a4e14",
             "Value": {
                 "id": "6a9d2ce5-3acb-4024-896a-998aebe8d4d1",
@@ -319,6 +343,14 @@
             }
         },
         {
+            "Key": "e4da5e4c-4852-41b2-8b81-16dcc711efae",
+            "Value": {
+                "id": "d3e44780-5ed8-4739-bb7f-8e920bda74df",
+                "resourcePath": "objects\\obj_MCP\\obj_MCP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e739dff0-7c6c-4396-a646-3693eb47c4db",
             "Value": {
                 "id": "bce17c22-c3df-4d4a-95f4-638058ed6dc5",
@@ -340,6 +372,14 @@
                 "id": "7bb972de-a422-473a-9676-aba693d4ad0f",
                 "resourcePath": "views\\e8bdebee-508f-4391-9e95-4e8a2047b5c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e8c62b78-4816-49f7-994f-7d04c4130775",
+            "Value": {
+                "id": "042b8bfe-f080-4382-9cc2-93be4bcb6875",
+                "resourcePath": "sprites\\bck_space\\bck_space.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
