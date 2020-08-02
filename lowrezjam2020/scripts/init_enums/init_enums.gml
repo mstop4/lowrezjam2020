@@ -1,6 +1,9 @@
 enum PLAYER_STATE {
 	IDLE,
-	WALK
+	WALK,
+	DASH,
+	OUCH,
+	DEAD
 };
 
 enum FACING {
