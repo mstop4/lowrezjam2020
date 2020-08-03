@@ -10,6 +10,9 @@ if (my_state == PLAYER_STATE.IDLE || my_state == PLAYER_STATE.WALK) {
 
 if (my_state == PLAYER_STATE.DASH) {
 	x = clamp(x + my_facing * 2, 4, 60);
+	var _x = floor(x);
+	var _y = floor(y);
+	part_particles_create(obj_particle_manager.part_sys, _x, _y, obj_particle_manager.part_player_trail, 1);
 } else {
 	x = clamp(x + _v_input, 4, 60);
 
