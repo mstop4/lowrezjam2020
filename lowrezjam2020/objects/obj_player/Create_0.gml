@@ -13,5 +13,6 @@ arm_sprites[PLAYER_STATE.DEAD] = spr_player_arm_walk_r;
 my_state = PLAYER_STATE.IDLE;
 my_facing = FACING.RIGHT;
 is_invincible = false;
+invincible_flash_visible = true;
 
 firing_y_offset = 0;

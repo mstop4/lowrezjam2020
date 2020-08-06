@@ -93,6 +93,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "6a69e9b5-3d73-4fc3-8a3c-99351a37ca89"
+        },
+        {
+            "id": "49822046-1b0b-49c5-9eda-078d6127fc81",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "6a69e9b5-3d73-4fc3-8a3c-99351a37ca89"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -138,6 +148,20 @@
             "resourceFilter": 1023,
             "value": "120",
             "varName": "invincible_time",
+            "varType": 1
+        },
+        {
+            "id": "b61d73ba-0f70-437f-9c21-c2c99f3acdcb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "invincible_flash_delay",
             "varType": 1
         }
     ],

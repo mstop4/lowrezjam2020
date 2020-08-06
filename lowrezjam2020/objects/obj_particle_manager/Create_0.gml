@@ -1,5 +1,5 @@
-part_sys = part_system_create_layer("Blur", false);
-part_star_sys = part_system_create_layer("Stars", false);
+part_sys = part_system_create_layer(layer_get_id("Blur"), false);
+part_star_sys = part_system_create_layer(layer_get_id("Stars"), false);
 
 part_bullet_trail = part_type_create();
 part_type_sprite(part_bullet_trail, spr_bullet_trail, true, false, false);
@@ -20,3 +20,7 @@ part_type_life(part_star, 700, 700);
 star_emit = part_emitter_create(part_star_sys);
 part_emitter_region(part_star_sys, star_emit, 67, 67, 0, 64, ps_shape_line, ps_distr_linear);
 part_emitter_stream(part_star_sys, star_emit, part_star, -60);
+
+repeat(640) {
+	part_system_update(part_star_sys);
+}
