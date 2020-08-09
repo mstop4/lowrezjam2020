@@ -16,7 +16,7 @@ if (my_state == PLAYER_STATE.DASH) {
 } else {
 	x = clamp(x + _v_input, 4, 60);
 
-	if (_shoot_input) {
+	if (_shoot_input && instance_number(obj_shot) < 2) {
 		firing_y_offset = 1;
 		alarm[0] = 10;
 	
