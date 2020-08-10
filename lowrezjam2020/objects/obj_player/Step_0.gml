@@ -8,7 +8,14 @@ if (my_state == PLAYER_STATE.IDLE || my_state == PLAYER_STATE.WALK) {
 	my_state = _v_input == 0 ? PLAYER_STATE.IDLE : PLAYER_STATE.WALK;
 }
 
-if (my_state == PLAYER_STATE.DASH) {
+if (my_state == PLAYER_STATE.OUCH) {
+	image_angle = (1 - alarm[4] / 15) * 360;
+} else if (my_state == PLAYER_STATE.DEAD) {
+	image_angle += 12;
+	x += -my_facing/2;
+	y += yspeed;
+	yspeed += grav;
+} else if (my_state == PLAYER_STATE.DASH) {
 	x = clamp(x + my_facing * 2, 4, 60);
 	var _x = floor(x);
 	var _y = floor(y);
@@ -19,6 +26,7 @@ if (my_state == PLAYER_STATE.DASH) {
 	if (_shoot_input && instance_number(obj_shot) < 2) {
 		firing_y_offset = 1;
 		alarm[0] = 10;
+		audio_play_sound(snd_laser, 1, false);
 	
 		var _x = my_facing == FACING.LEFT ? x-1 : x;
 	

@@ -1,6 +1,14 @@
-if (!is_invincible && my_state != PLAYER_STATE.DASH) {
-	is_invincible = true;
-	alarm[2] = invincible_time;
-	invincible_flash_visible = false;
-	alarm[3] = invincible_flash_delay;
+if (!is_invincible 
+	&& my_state != PLAYER_STATE.DASH
+	&& my_state != PLAYER_STATE.OUCH
+	&& my_state != PLAYER_STATE.DEAD) {
+	lives--;
+	if (lives > 0) {
+		my_state = PLAYER_STATE.OUCH;
+		alarm[4] = 15;
+	} else {
+		my_state = PLAYER_STATE.DEAD;
+		yspeed = -1;
+		alarm[5] = 120;
+	}
 }
