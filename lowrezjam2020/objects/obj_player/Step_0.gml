@@ -38,3 +38,19 @@ if (my_state == PLAYER_STATE.OUCH) {
 		alarm[1] = dash_time;
 	}
 }
+
+if (lives < max_lives && !is_invincible
+	&& my_state != PLAYER_STATE.OUCH && my_state != PLAYER_STATE.DEAD) {
+	health += 1;
+	if (health >= max_health) {
+		lives++;
+		health = lives >= max_lives ? max_health : health - max_health;
+		
+		if (lives > 1) {
+			with (obj_UI) {
+				health_flash_visible = true;
+				alarm[0] = -1;
+			}
+		}
+	}
+}

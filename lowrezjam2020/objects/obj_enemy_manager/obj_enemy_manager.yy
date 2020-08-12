@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "d4c5a2de-1ea9-4335-b38d-f905fd6c3a8b"
+        },
+        {
+            "id": "204765c3-01b6-4751-9022-0a52bc3827dd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "d4c5a2de-1ea9-4335-b38d-f905fd6c3a8b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,20 +52,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "3c1cd238-037a-4643-980e-4203d655bed4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "max_enemies",
-            "varType": 1
-        }
+        
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",

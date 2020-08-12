@@ -17,4 +17,6 @@ invincible_flash_visible = true;
 
 yspeed = 0;
 firing_y_offset = 0;
-lives = 3;
+lives = max_lives;
+health = max_health;
+score = 0;
