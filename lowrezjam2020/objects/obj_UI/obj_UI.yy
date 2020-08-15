@@ -75,6 +75,34 @@
             "value": "15",
             "varName": "health_flash_delay",
             "varType": 1
+        },
+        {
+            "id": "4bfbf976-cc99-4fa8-a802-574e3ad86e08",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "min_fade_alpha",
+            "varType": 0
+        },
+        {
+            "id": "2f1574ec-bfd7-48c5-8735-552d4c6ab389",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "fade_alpha_delta",
+            "varType": 0
         }
     ],
     "solid": false,

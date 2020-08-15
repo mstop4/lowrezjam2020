@@ -36,6 +36,7 @@ if (my_state == PLAYER_STATE.OUCH) {
 	if (_dash_input) {
 		my_state = PLAYER_STATE.DASH;
 		alarm[1] = dash_time;
+		audio_play_sound(snd_dash, 1, false);
 	}
 }
 

@@ -8,7 +8,7 @@ spawn_delay_table = [60, 50, 40, 30, 25, 20, 15];
 max_enemies_table = [12, 15, 18, 25, 30, 37, 50];
 kill_quota_table = [18, 22, 27, 37, 45, 56, 75];
 
-level = 3;
+level = 0;
 max_level = array_length_1d(kill_quota_table);
 
 kills = 0;
