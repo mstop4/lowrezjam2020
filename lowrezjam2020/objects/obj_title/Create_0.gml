@@ -26,3 +26,5 @@ audio_sound_gain(mus_title, 1, 0);
 
 timeline_index = tmln_title;
 timeline_running = true;
+
+erase_high_score_buffer = 0;

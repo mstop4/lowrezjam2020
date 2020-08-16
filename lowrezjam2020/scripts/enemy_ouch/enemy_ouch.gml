@@ -5,7 +5,7 @@ if (!is_spawning) {
 	// var _p = instance_create_layer(x, y, layer, obj_points);
 	// _p.my_value = string(other.my_value);
 	
-	audio_play_sound(snd_pop, 1, false);
+	audio_play_sound(snd_pop, 0.5, false);
 	with (obj_enemy_manager) {
 		kills++;
 
