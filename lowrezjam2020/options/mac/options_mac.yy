@@ -12,7 +12,7 @@
     "option_mac_build_app_store": false,
     "option_mac_copyright": "(C) 2020 Quadolor Games",
     "option_mac_disable_sandbox": false,
-    "option_mac_display_cursor": false,
+    "option_mac_display_cursor": true,
     "option_mac_display_name": "Dinothing Defender",
     "option_mac_enable_retina": false,
     "option_mac_enable_steam": false,
