@@ -17,3 +17,15 @@ if (zoom_out) {
 	
 	zoom_t++;
 }
+
+if (title_alpha_delta != 0) {
+	title_alpha = min(title_alpha + title_alpha_delta, 1);
+}
+
+if (start_alpha_delta != 0) {
+	start_alpha = min(start_alpha + start_alpha_delta, 1);
+}
+
+if (high_score_alpha_delta != 0) {
+	high_score_alpha = min(high_score_alpha + high_score_alpha_delta, 1);
+}

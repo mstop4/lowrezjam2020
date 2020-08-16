@@ -1,5 +1,6 @@
 draw_set_alpha(score_alpha);
 
+draw_set_colour(c_white);
 draw_set_valign(fa_top);
 draw_set_font(obj_MCP.fnt_numbers);
 draw_set_halign(fa_right);
@@ -16,5 +17,3 @@ if (health_flash_visible) {
 }
 
 draw_set_alpha(1);
-
-// draw_text(15, 0, string(obj_enemy_manager.kills));
