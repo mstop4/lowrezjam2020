@@ -1,4 +1,5 @@
 can_start = false;
+is_starting = false;
 fade_dir = 0;
 fade_out_alpha = 1;
 
@@ -18,6 +19,10 @@ cam_width = camera_get_view_width(view_camera[0]);
 
 zoom_out = false;
 zoom_t = 0;
+
+audio_stop_all();
+audio_sound_gain(mus_level, 1, 0);
+audio_sound_gain(mus_title, 1, 0);
 
 timeline_index = tmln_title;
 timeline_running = true;

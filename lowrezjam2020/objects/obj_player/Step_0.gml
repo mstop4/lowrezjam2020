@@ -44,6 +44,7 @@ if (lives < max_lives && !is_invincible
 	&& my_state != PLAYER_STATE.OUCH && my_state != PLAYER_STATE.DEAD) {
 	health += 1;
 	if (health >= max_health) {
+		audio_play_sound(snd_heal, 0.75, false);
 		lives++;
 		health = lives >= max_lives ? max_health : health - max_health;
 		
