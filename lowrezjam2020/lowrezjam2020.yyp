@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "52c9de47-bd62-4c15-8a33-200e33fc3d16",
+            "Value": {
+                "id": "4d53df16-6c30-4811-b39f-50a8bf3cf380",
+                "resourcePath": "timelines\\tmln_player_intro\\tmln_player_intro.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "533dc33b-7af8-489b-bb40-9f4ab96c0545",
             "Value": {
                 "id": "04a54fb6-9a18-4048-a1a9-01bbdd767105",

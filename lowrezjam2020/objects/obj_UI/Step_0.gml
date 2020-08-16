@@ -14,3 +14,16 @@ if (collision_rectangle(63 - _score_len, 1, 63, 6, obj_enemy, false, true)) {
 } else {
 	score_alpha = min(1, score_alpha + fade_alpha_delta);
 }
+
+if (fade_dir != 0) {
+	fade_out_alpha = clamp(fade_out_alpha + fade_dir, 0, 1);
+}
+
+if (keyboard_check(vk_escape)) {
+	quit_buffer++;
+	if (quit_buffer >= 60) {
+		room_goto(room_title);
+	}
+} else if (keyboard_check_released(vk_escape)) {
+	quit_buffer = 0;
+}

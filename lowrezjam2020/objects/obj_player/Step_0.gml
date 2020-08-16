@@ -20,6 +20,11 @@ if (my_state == PLAYER_STATE.OUCH) {
 	var _x = floor(x);
 	var _y = floor(y);
 	part_particles_create(obj_particle_manager.part_sys, _x, _y, obj_particle_manager.part_player_trail, 1);
+} else if (my_state == PLAYER_STATE.INTRO) {
+	y += yspeed;
+	yspeed += grav;
+} else if (my_state == PLAYER_STATE.PREINTRO) {
+	// do nothing
 } else {
 	x = clamp(x + _v_input, 4, 60);
 

@@ -3,7 +3,9 @@ enum PLAYER_STATE {
 	WALK,
 	DASH,
 	OUCH,
-	DEAD
+	DEAD,
+	INTRO,
+	PREINTRO
 };
 
 enum FACING {
