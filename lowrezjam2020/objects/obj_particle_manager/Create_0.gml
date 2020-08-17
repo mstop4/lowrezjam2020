@@ -1,7 +1,8 @@
-if (layer_exists(layer_get_id("Blur"))) {
-	part_sys = part_system_create_layer(layer_get_id("Blur"), false);
-}
-part_star_sys = part_system_create_layer(layer_get_id("Stars"), false);
+part_sys = part_system_create();
+part_system_layer(part_sys, "Blur");
+
+part_star_sys = part_system_create();
+part_system_layer(part_star_sys, "Stars");
 
 part_bullet_trail = part_type_create();
 part_type_sprite(part_bullet_trail, spr_bullet_trail, true, false, false);
