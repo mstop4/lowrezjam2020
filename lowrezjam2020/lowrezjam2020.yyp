@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "c7b21c87-5073-41c1-9dab-2324c81a87cb",
+            "Value": {
+                "id": "dfe8bbe1-5406-40e3-9d55-80e04ae940ac",
+                "resourcePath": "datafiles_yy\\hiscore.dat.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "c7f6ea8f-4033-44e5-b490-393f74fb0479",
             "Value": {
                 "id": "7f0b5db1-264c-4704-9d38-7944a9004dc3",
