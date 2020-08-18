@@ -1,16 +1,17 @@
 if (!is_starting) {
 	if (!can_start) {
 		timeline_running = false;
-		fade_dir = 0;
+		obj_fade_manager.fade_dir = 0;
+		obj_fade_manager.fade_out_alpha = 0;
 		cam_pan_x = 0;
 		cam_pan_y = 0;
-		fade_out_alpha = 0;
 		start_alpha = 1;
 		start_alpha_delta = 0;
 		title_alpha = 1;
 		title_alpha_delta = 0;
 		high_score_alpha = 1;
 		high_score_alpha_delta = 0;
+		zoom_out = false;
 		image_index = 3;
 		alarm[0] = 120;
 		camera_set_view_pos(view_camera[0], 0, 0);

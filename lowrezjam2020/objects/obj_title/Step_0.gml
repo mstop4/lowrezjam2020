@@ -1,7 +1,3 @@
-if (fade_dir != 0) {
-	fade_out_alpha = clamp(fade_out_alpha + fade_dir, 0, 1);
-}
-
 if (cam_pan_x != 0 || cam_pan_y != 0) {
 	cam_x += cam_pan_x;
 	cam_y += cam_pan_y;

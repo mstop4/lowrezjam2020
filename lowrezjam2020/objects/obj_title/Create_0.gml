@@ -1,7 +1,7 @@
 can_start = false;
 is_starting = false;
-fade_dir = 0;
-fade_out_alpha = 1;
+obj_fade_manager.fade_dir = 0;
+obj_fade_manager.fade_out_alpha = 1;
 
 title_alpha = 0;
 start_alpha = 0;
