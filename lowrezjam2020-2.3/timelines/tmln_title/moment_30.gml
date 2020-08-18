@@ -1,0 +1,1 @@
+obj_fade_manager.fade_dir = 0;
