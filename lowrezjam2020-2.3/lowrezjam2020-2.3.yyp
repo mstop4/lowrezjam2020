@@ -16,7 +16,6 @@
     {"id":{"name":"spr_bullet_trail","path":"sprites/spr_bullet_trail/spr_bullet_trail.yy",},"order":0,},
     {"id":{"name":"spr_player_trail","path":"sprites/spr_player_trail/spr_player_trail.yy",},"order":1,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":2,},
-    {"id":{"name":"spr_fnt_small_num","path":"sprites/spr_fnt_small_num/spr_fnt_small_num.yy",},"order":0,},
     {"id":{"name":"spr_fnt_numbers","path":"sprites/spr_fnt_numbers/spr_fnt_numbers.yy",},"order":1,},
     {"id":{"name":"spr_ready_go","path":"sprites/spr_ready_go/spr_ready_go.yy",},"order":0,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":1,},
