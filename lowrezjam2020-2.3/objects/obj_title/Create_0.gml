@@ -1,20 +1,19 @@
 can_start = false;
 is_starting = false;
-obj_fade_manager.fade_dir = 0;
-obj_fade_manager.fade_out_alpha = 1;
+obj_fade_manager.fade_out_alpha.d = 0;
+obj_fade_manager.fade_out_alpha.v = 1;
 
-title_alpha = 0;
-start_alpha = 0;
-high_score_alpha = 0;
+title_alpha = new Slider(0, 0, 0, 1);
+start_alpha = new Slider(0, 0, 0, 1);
+high_score_alpha = new Slider(0, 0, 0, 1);
 
-title_alpha_delta = 0;
-start_alpha_delta = 0;
-high_score_alpha_delta = 0;
+cam_pos = new Slider2(
+	camera_get_view_x(view_camera[0]),
+	camera_get_view_y(view_camera[0]),
+	0,
+	0
+);
 
-cam_pan_x = 0;
-cam_pan_y = 0;
-cam_x = camera_get_view_x(view_camera[0]);
-cam_y = camera_get_view_y(view_camera[0]);
 cam_width = camera_get_view_width(view_camera[0]);
 
 zoom_out = false;

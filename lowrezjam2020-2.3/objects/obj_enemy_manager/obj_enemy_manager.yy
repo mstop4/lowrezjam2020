@@ -30,6 +30,8 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_manager",
-  "tags": [],
+  "tags": [
+    "Control",
+  ],
   "resourceType": "GMObject",
 }

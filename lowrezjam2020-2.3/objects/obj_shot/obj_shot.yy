@@ -57,6 +57,9 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_shot",
-  "tags": [],
+  "tags": [
+    "Player",
+    "Projectile",
+  ],
   "resourceType": "GMObject",
 }

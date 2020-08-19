@@ -40,6 +40,8 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_title",
-  "tags": [],
+  "tags": [
+    "Control",
+  ],
   "resourceType": "GMObject",
 }

@@ -29,6 +29,4 @@ function player_ouch() {
 			audio_sound_gain(mus_level, 0.25, 2000);
 		}
 	}
-
-
 }

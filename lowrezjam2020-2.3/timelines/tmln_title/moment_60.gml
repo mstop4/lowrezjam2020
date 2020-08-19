@@ -1,1 +1,1 @@
-cam_pan_x = -0.5;
+cam_pos.dx = -0.5;

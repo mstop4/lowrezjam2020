@@ -13,6 +13,4 @@ function init_enums() {
 		LEFT = -1,
 		RIGHT = 1
 	};
-
-
 }

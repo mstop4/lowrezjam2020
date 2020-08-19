@@ -1,16 +1,16 @@
 if (!is_starting) {
 	if (!can_start) {
 		timeline_running = false;
-		obj_fade_manager.fade_dir = 0;
-		obj_fade_manager.fade_out_alpha = 0;
-		cam_pan_x = 0;
-		cam_pan_y = 0;
-		start_alpha = 1;
-		start_alpha_delta = 0;
-		title_alpha = 1;
-		title_alpha_delta = 0;
-		high_score_alpha = 1;
-		high_score_alpha_delta = 0;
+		obj_fade_manager.fade_out_alpha.d = 0;
+		obj_fade_manager.fade_out_alpha.v = 0;
+		cam_pos.dx = 0;
+		cam_pos.dy = 0;
+		start_alpha.v = 1;
+		start_alpha.d = 0;
+		title_alpha.v = 1;
+		title_alpha.d = 0;
+		high_score_alpha.v = 1;
+		high_score_alpha.d = 0;
 		zoom_out = false;
 		image_index = 3;
 		alarm[0] = 120;

@@ -21,6 +21,4 @@ function enemy_ouch() {
 		instance_destroy(other);
 		instance_destroy();
 	}
-
-
 }

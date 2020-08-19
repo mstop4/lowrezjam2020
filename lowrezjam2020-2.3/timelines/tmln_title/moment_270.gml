@@ -1,1 +1,1 @@
-cam_pan_y = 0;
+cam_pos.dy = 0;

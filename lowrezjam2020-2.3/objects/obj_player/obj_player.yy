@@ -115,6 +115,8 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_player",
-  "tags": [],
+  "tags": [
+    "Player",
+  ],
   "resourceType": "GMObject",
 }

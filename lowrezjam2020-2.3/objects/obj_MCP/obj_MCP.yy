@@ -43,6 +43,8 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_MCP",
-  "tags": [],
+  "tags": [
+    "Control",
+  ],
   "resourceType": "GMObject",
 }

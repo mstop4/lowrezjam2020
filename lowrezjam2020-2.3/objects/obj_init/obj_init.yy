@@ -29,6 +29,8 @@
   },
   "resourceVersion": "1.0",
   "name": "obj_init",
-  "tags": [],
+  "tags": [
+    "Control",
+  ],
   "resourceType": "GMObject",
 }
