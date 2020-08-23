@@ -1,2 +1,2 @@
 title_alpha.d = 0;
-start_alpha.d = 1/30;
+obj_menu.menu_alpha.d = 1/30;

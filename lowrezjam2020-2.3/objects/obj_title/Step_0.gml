@@ -13,7 +13,6 @@ if (zoom_out) {
 }
 
 title_alpha.update();
-start_alpha.update();
 high_score_alpha.update();
 
 if (keyboard_check(ord("H"))) {

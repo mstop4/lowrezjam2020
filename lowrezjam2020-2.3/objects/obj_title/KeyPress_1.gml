@@ -5,8 +5,9 @@ if (!is_starting) {
 		obj_fade_manager.fade_out_alpha.v = 0;
 		cam_pos.dx = 0;
 		cam_pos.dy = 0;
-		start_alpha.v = 1;
-		start_alpha.d = 0;
+		obj_menu.menu_alpha.v = 1;
+		obj_menu.menu_alpha.d = 0;
+		obj_menu.active = true;
 		title_alpha.v = 1;
 		title_alpha.d = 0;
 		high_score_alpha.v = 1;

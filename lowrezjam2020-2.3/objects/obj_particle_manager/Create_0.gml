@@ -21,7 +21,7 @@ part_type_direction(part_star, 180, 180, 0, 0);
 part_type_life(part_star, 700, 700);
 
 star_emit = part_emitter_create(part_star_sys);
-part_emitter_region(part_star_sys, star_emit, 67, 67, 0, 64, ps_shape_line, ps_distr_linear);
+part_emitter_region(part_star_sys, star_emit, room_width + 3, room_width + 3, 0, 64, ps_shape_line, ps_distr_linear);
 part_emitter_stream(part_star_sys, star_emit, part_star, -60);
 
 repeat(640) {

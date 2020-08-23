@@ -4,7 +4,6 @@ obj_fade_manager.fade_out_alpha.d = 0;
 obj_fade_manager.fade_out_alpha.v = 1;
 
 title_alpha = new Slider(0, 0, 0, 1);
-start_alpha = new Slider(0, 0, 0, 1);
 high_score_alpha = new Slider(0, 0, 0, 1);
 
 cam_pos = new Slider2(
