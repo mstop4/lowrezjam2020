@@ -24,6 +24,6 @@ star_emit = part_emitter_create(part_star_sys);
 part_emitter_region(part_star_sys, star_emit, room_width + 3, room_width + 3, 0, 64, ps_shape_line, ps_distr_linear);
 part_emitter_stream(part_star_sys, star_emit, part_star, -60);
 
-repeat(640) {
+repeat(room_width * 10) {
 	part_system_update(part_star_sys);
 }

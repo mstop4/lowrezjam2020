@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "menu_start_game",
+  "name": "menu_scripts",
   "tags": [],
   "resourceType": "GMScript",
 }
