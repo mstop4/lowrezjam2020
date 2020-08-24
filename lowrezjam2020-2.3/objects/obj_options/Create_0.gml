@@ -1,0 +1,1 @@
+title_alpha = new Slider(0, 0, 0, 1);

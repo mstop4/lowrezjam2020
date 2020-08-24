@@ -33,9 +33,11 @@ function Slider2(_x, _y, _dx, _dy) constructor {
 	}
 }
 
-function MenuItem(_label, _x_offset, _y_offset, _on_confirm) constructor {
+function MenuItem(_label, _x_offset, _y_offset, _on_confirm, _max_selection) constructor {
 	label = _label;
 	x_offset = _x_offset;
 	y_offset = _y_offset;
 	on_confirm =  _on_confirm;
+	selection = 0;
+	max_selection = _max_selection;
 }

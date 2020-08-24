@@ -22,5 +22,6 @@ if (!is_starting) {
 			audio_play_sound(mus_title, 1, true);
 		}
 		can_start = true;
+		io_clear();
 	}
 }

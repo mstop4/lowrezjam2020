@@ -1,1 +1,1 @@
-options_menu.menu_alpha.d = 0;
+obj_options.options_menu.menu_alpha.d = 0;

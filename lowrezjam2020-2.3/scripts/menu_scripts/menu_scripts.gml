@@ -21,9 +21,13 @@ function menu_goto_options() {
 
 function menu_goto_main_menu() {
 	with (obj_title) {
-		options_menu.active = false;
+		obj_options.options_menu.active = false;
 		timeline_index = tmln_to_main_menu;
 		timeline_position = 0;
 		timeline_running = true;
 	}
+}
+
+function menu_quit() {
+	game_end();
 }
