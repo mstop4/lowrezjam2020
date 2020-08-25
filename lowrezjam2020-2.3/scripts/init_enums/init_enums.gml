@@ -13,4 +13,14 @@ function init_enums() {
 		LEFT = -1,
 		RIGHT = 1
 	};
+	
+	enum CONTROLS {
+		UP,
+		DOWN,
+		LEFT,
+		RIGHT,
+		SHOOT,
+		DASH,
+		CONFIRM
+	}
 }

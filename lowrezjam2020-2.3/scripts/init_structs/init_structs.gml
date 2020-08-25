@@ -41,3 +41,8 @@ function MenuItem(_label, _x_offset, _y_offset, _on_confirm, _max_selection) con
 	selection = 0;
 	max_selection = _max_selection;
 }
+
+function Vector2(_x, _y) constructor {
+	x = _x;
+	y = _y;
+}
