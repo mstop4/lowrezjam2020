@@ -26,3 +26,4 @@ timeline_index = tmln_title;
 timeline_running = true;
 
 main_menu = -1;
+ctrl_id = obj_controller.id;

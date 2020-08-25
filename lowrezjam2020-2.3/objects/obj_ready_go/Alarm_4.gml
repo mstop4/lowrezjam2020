@@ -6,4 +6,4 @@ if (score > obj_MCP.highscore) {
 }
 
 obj_fade_manager.fade_out_alpha.d = 1/30;
-obj_UI.alarm[2] = 30;
+obj_game_UI.alarm[2] = 30;

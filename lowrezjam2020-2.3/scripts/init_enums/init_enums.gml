@@ -21,6 +21,8 @@ function init_enums() {
 		RIGHT,
 		SHOOT,
 		DASH,
-		CONFIRM
+		CONFIRM,
+		QUIT,
+		MAX
 	}
 }

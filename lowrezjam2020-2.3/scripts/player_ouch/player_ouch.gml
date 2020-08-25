@@ -15,7 +15,7 @@ function player_ouch() {
 			alarm[4] = 15;
 		
 			if (lives <= 1) {
-				with (obj_UI) {
+				with (obj_game_UI) {
 					health_flash_visible = false;
 					alarm[0] = health_flash_delay;
 				}
