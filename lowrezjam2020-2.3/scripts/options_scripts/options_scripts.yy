@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "toggle_fullscreen",
+  "name": "options_scripts",
   "tags": [],
   "resourceType": "GMScript",
 }

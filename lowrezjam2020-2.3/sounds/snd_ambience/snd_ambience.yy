@@ -7,14 +7,14 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "ag_music",
+    "path": "audiogroups/ag_music",
   },
   "soundFile": "snd_ambience",
   "duration": 9.005,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "BGM",
+    "path": "folders/Sounds/BGM.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_ambience",

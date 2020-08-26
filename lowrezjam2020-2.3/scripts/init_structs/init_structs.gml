@@ -1,3 +1,8 @@
+function Vector2(_x, _y) constructor {
+	x = _x;
+	y = _y;
+}
+
 function Slider(_value, _delta, _min_v, _max_v) constructor {
 	v = _value;
 	d = _delta;
@@ -33,16 +38,20 @@ function Slider2(_x, _y, _dx, _dy) constructor {
 	}
 }
 
-function MenuItem(_label, _x_offset, _y_offset, _on_confirm, _max_selection) constructor {
+function MenuItem(
+		_label,
+		_x_offset,
+		_y_offset,
+		_on_confirm,
+		_on_change,
+		_max_selection,
+		_init_selection
+	) constructor {
 	label = _label;
 	x_offset = _x_offset;
 	y_offset = _y_offset;
 	on_confirm =  _on_confirm;
-	selection = 0;
+	on_change = _on_change;
+	selection = _init_selection;
 	max_selection = _max_selection;
-}
-
-function Vector2(_x, _y) constructor {
-	x = _x;
-	y = _y;
 }

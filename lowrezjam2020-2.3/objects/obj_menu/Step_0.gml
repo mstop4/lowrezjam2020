@@ -1,5 +1,5 @@
 if (active) {
-	var _confirm_input = ctrl_id.ctrl_pressed[CONTROLS.CONFIRM] || ctrl_id.ctrl_pressed[CONTROLS.SHOOT];
+	var _confirm_input = ctrl_id.ctrl_pressed[CONTROLS.CONFIRM] || ctrl_id.ctrl_pressed[CONTROLS.SHOOT] || ctrl_id.ctrl_pressed[CONTROLS.DASH];
 	
 	if (_confirm_input) {
 		if (script_exists(menu_items[menu_pos].on_confirm)) {
@@ -17,6 +17,10 @@ if (active) {
 			0,
 			menu_items[menu_pos].max_selection-1
 		);
+		
+		if (script_exists(menu_items[menu_pos].on_change)) {
+			script_execute(menu_items[menu_pos].on_change);
+		}
 	}
 }
 
