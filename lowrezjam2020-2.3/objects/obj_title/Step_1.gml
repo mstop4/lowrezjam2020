@@ -23,5 +23,5 @@ if (ctrl_id.ctrl_any_pressed && !is_starting && !can_start) {
 	}
 
 	can_start = true;
-	io_clear();
+	ctrl_id.clear_all();
 }

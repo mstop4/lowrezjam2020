@@ -1,6 +1,6 @@
 surface_resize(application_surface, room_width, room_height);
 
-fnt_small = font_add_sprite_ext(spr_fnt, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ", false, 1);
+fnt_small = font_add_sprite_ext(spr_fnt, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 :", false, 1);
 
 if (!file_exists("hiscore.dat")) {
 	highscore = 0;

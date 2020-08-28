@@ -4,6 +4,7 @@ function toggle_fullscreen() {
 
 function erase_hiscore() {
 	obj_MCP.highscore = 0;
+	audio_stop_sound(snd_die);
 	audio_play_sound(snd_die, 0.5, false);
 	var _hsf = file_text_open_write("hiscore.dat");
 	file_text_write_real(_hsf, 0);

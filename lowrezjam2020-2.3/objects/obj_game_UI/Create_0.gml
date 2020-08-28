@@ -10,6 +10,3 @@ score_alpha = 1;
 health_alpha = 1;
 audio_stop_all();
 audio_play_sound(mus_level, 1, true);
-
-quit_buffer = 0;
-ctrl_id = obj_controller.id;

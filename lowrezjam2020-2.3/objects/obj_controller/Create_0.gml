@@ -27,3 +27,23 @@ axis_held = new Vector2(0, 0);
 axis_pressed = new Vector2(0, 0);
 stick_input = new Vector2(0, 0);
 prev_stick_input = new Vector2(0, 0);
+
+clear_all = function () {
+	for (var i=CONTROLS.UP; i<CONTROLS.MAX; i++) {
+		ctrl_held[i] = false;
+		ctrl_pressed[i] = false;
+		ctrl_released[i] = false;
+	}
+	
+	ctrl_any_pressed = false;
+	ctrl_any_pressed = false;
+	axis_held.x = 0;
+	axis_held.y = 0;
+	axis_pressed.x = 0;
+	axis_pressed.y = 0;
+	stick_input.x = 0
+	stick_input.y = 0;
+	prev_stick_input.x = 0;
+	prev_stick_input.y = 0;
+	io_clear();
+}

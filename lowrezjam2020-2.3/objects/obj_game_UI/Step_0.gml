@@ -14,12 +14,3 @@ if (collision_rectangle(63 - _score_len, 1, 63, 6, obj_enemy, false, true)) {
 } else {
 	score_alpha = min(1, score_alpha + fade_alpha_delta);
 }
-
-if (ctrl_id.ctrl_held[CONTROLS.QUIT]) {
-	quit_buffer++;
-	if (quit_buffer >= 60) {
-		room_goto(room_title);
-	}
-} else if (ctrl_id.ctrl_released[CONTROLS.QUIT]) {
-	quit_buffer = 0;
-}
