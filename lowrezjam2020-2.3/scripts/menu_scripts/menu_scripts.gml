@@ -20,6 +20,11 @@ function menu_goto_options() {
 }
 
 function menu_goto_main_menu() {
+	ini_open("settings.ini");
+	ini_write_real("Audio", "Music", obj_MCP.music_gain);
+	ini_write_real("Audio", "SFX", obj_MCP.sfx_gain);
+	ini_close();
+	
 	with (obj_title) {
 		obj_options.options_menu.active = false;
 		timeline_index = tmln_to_main_menu;

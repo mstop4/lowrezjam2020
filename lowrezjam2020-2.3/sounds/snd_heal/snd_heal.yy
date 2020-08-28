@@ -10,7 +10,7 @@
     "name": "ag_sfx",
     "path": "audiogroups/ag_sfx",
   },
-  "soundFile": "snd_heal",
+  "soundFile": "snd_heal.wav",
   "duration": 0.940306,
   "parent": {
     "name": "SFX",

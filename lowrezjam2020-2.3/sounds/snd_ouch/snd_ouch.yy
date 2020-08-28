@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.51,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,7 +10,7 @@
     "name": "ag_sfx",
     "path": "audiogroups/ag_sfx",
   },
-  "soundFile": "snd_ouch",
+  "soundFile": "snd_ouch.wav",
   "duration": 0.41407,
   "parent": {
     "name": "SFX",

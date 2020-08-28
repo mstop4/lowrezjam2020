@@ -12,17 +12,11 @@ function erase_hiscore() {
 }
 
 function toggle_SFX() {
-	if (menu_items[menu_pos].selection == 0) {
-		audio_group_set_gain(ag_sfx, 0, 0);
-	} else {
-		audio_group_set_gain(ag_sfx, 1, 0);
-	}
+	obj_MCP.sfx_gain = menu_items[menu_pos].selection == 0 ? 0 : 1;
+	audio_group_set_gain(ag_sfx, obj_MCP.sfx_gain, 0);
 }
 
 function toggle_BGM() {
-	if (menu_items[menu_pos].selection == 0) {
-		audio_group_set_gain(ag_music, 0, 0);
-	} else {
-		audio_group_set_gain(ag_music, 1, 0);
-	}
+	obj_MCP.music_gain = menu_items[menu_pos].selection == 0 ? 0 : 1;
+	audio_group_set_gain(ag_music, obj_MCP.music_gain, 0);
 }

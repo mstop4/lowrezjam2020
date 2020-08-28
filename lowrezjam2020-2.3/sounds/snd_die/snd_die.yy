@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.49,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,7 +10,7 @@
     "name": "ag_sfx",
     "path": "audiogroups/ag_sfx",
   },
-  "soundFile": "snd_die",
+  "soundFile": "snd_die.wav",
   "duration": 1.368628,
   "parent": {
     "name": "SFX",

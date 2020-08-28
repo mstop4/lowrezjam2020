@@ -19,8 +19,8 @@ zoom_out = false;
 zoom_t = 0;
 
 audio_stop_all();
-audio_sound_gain(mus_level, 1, 0);
-audio_sound_gain(mus_title, 1, 0);
+audio_sound_gain(mus_level, obj_MCP.music_gain, 0);
+audio_sound_gain(mus_title, obj_MCP.sfx_gain, 0);
 
 timeline_index = tmln_title;
 timeline_running = true;

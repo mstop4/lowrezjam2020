@@ -26,7 +26,7 @@ function player_ouch() {
 			yspeed = -1;
 			grav = 0.05;
 			obj_ready_go.alarm[2] = 120;
-			audio_sound_gain(mus_level, 0.25, 2000);
+			audio_sound_gain(mus_level, obj_MCP.music_gain * 0.25, 2000);
 		}
 	}
 }

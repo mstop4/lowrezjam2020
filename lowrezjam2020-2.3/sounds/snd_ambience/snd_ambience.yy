@@ -1,16 +1,16 @@
 {
   "compression": 1,
-  "volume": 0.49,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
-  "type": 0,
+  "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
     "name": "ag_music",
     "path": "audiogroups/ag_music",
   },
-  "soundFile": "snd_ambience",
+  "soundFile": "snd_ambience.wav",
   "duration": 9.005,
   "parent": {
     "name": "BGM",
