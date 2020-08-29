@@ -1,1 +1,0 @@
-obj_fade_manager.fade_out_alpha.d = 0;

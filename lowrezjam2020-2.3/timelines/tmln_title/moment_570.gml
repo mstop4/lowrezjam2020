@@ -1,1 +1,0 @@
-title_alpha.d = 1/30;

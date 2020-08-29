@@ -29,3 +29,4 @@ y = 68;
 
 alarm[5] = 30;
 timeline_index = tmln_player_intro;
+ctrl_id = obj_controller.id;

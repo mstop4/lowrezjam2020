@@ -1,11 +1,7 @@
-var _v_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var _shoot_input = keyboard_check_pressed(ord("Z"));
-var _dash_input = keyboard_check_pressed(ord("X"));
-
-my_facing = _v_input != 0 && my_state != PLAYER_STATE.DASH ? _v_input : my_facing;
+my_facing = ctrl_id.axis_held.x != 0 && my_state != PLAYER_STATE.DASH ? ctrl_id.axis_held.x : my_facing;
 
 if (my_state == PLAYER_STATE.IDLE || my_state == PLAYER_STATE.WALK) {
-	my_state = _v_input == 0 ? PLAYER_STATE.IDLE : PLAYER_STATE.WALK;
+	my_state = ctrl_id.axis_held.x == 0 ? PLAYER_STATE.IDLE : PLAYER_STATE.WALK;
 }
 
 if (my_state == PLAYER_STATE.OUCH) {
@@ -26,9 +22,9 @@ if (my_state == PLAYER_STATE.OUCH) {
 } else if (my_state == PLAYER_STATE.PREINTRO) {
 	// do nothing
 } else {
-	x = clamp(x + _v_input, 4, 60);
+	x = clamp(x + ctrl_id.axis_held.x, 4, 60);
 
-	if (_shoot_input && instance_number(obj_shot) < 2) {
+	if (ctrl_id.ctrl_pressed[CONTROLS.SHOOT] && instance_number(obj_shot) < 2) {
 		firing_y_offset = 1;
 		alarm[0] = 10;
 		audio_play_sound(snd_laser, 1, false);
@@ -38,7 +34,7 @@ if (my_state == PLAYER_STATE.OUCH) {
 		instance_create_layer(_x, y-4, layer, obj_shot);
 	}
 
-	if (_dash_input) {
+	if (ctrl_id.ctrl_pressed[CONTROLS.DASH]) {
 		my_state = PLAYER_STATE.DASH;
 		alarm[1] = dash_time;
 		audio_play_sound(snd_dash, 1, false);
@@ -54,7 +50,7 @@ if (lives < max_lives && !is_invincible
 		health = lives >= max_lives ? max_health : health - max_health;
 		
 		if (lives > 1) {
-			with (obj_UI) {
+			with (obj_game_UI) {
 				health_flash_visible = true;
 				alarm[0] = -1;
 			}

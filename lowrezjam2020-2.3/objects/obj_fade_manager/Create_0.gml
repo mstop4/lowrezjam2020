@@ -1,1 +1,0 @@
-fade_out_alpha = new Slider(1, 0, 0, 1);
