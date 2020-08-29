@@ -43,6 +43,7 @@ function MenuItem(
 		_x_offset,
 		_y_offset,
 		_on_confirm,
+		_play_sfx_on_confirm,
 		_on_change,
 		_max_selection,
 		_init_selection
@@ -51,6 +52,7 @@ function MenuItem(
 	x_offset = _x_offset;
 	y_offset = _y_offset;
 	on_confirm =  _on_confirm;
+	play_sfx_on_confirm = _play_sfx_on_confirm;
 	on_change = _on_change;
 	selection = _init_selection;
 	max_selection = _max_selection;

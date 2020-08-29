@@ -4,6 +4,7 @@ function add_menu_item(
 	_x_offset,
 	_y_offset,
 	_on_confirm,
+	_play_sfx_on_confirm,
 	_on_change,
 	_max_selection,
 	_init_selection) {
@@ -13,6 +14,7 @@ function add_menu_item(
 			_x_offset,
 			_y_offset,
 			asset_get_index(_on_confirm),
+			_play_sfx_on_confirm,
 			asset_get_index(_on_change),
 			_max_selection,
 			_init_selection

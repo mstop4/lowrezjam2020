@@ -5,10 +5,14 @@ if (active) {
 		if (script_exists(menu_items[menu_pos].on_confirm)) {
 			script_execute(menu_items[menu_pos].on_confirm);
 		}
+		if (menu_items[menu_pos].play_sfx_on_confirm) {
+			audio_play_sound(snd_menu_select, 0.1, false);
+		}
 	}
 	
 	if (ctrl_id.axis_pressed.y != 0) {
 		menu_pos = wrap(menu_pos + ctrl_id.axis_pressed.y, 0, num_menu_items-1);
+		audio_play_sound(snd_menu_select, 0.1, false);
 	}
 	
 	if (ctrl_id.axis_pressed.x != 0) {
@@ -21,6 +25,7 @@ if (active) {
 		if (script_exists(menu_items[menu_pos].on_change)) {
 			script_execute(menu_items[menu_pos].on_change);
 		}
+		audio_play_sound(snd_menu_select, 0.1, false);
 	}
 }
 

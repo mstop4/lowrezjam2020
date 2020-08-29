@@ -47,6 +47,7 @@
     {"id":{"name":"draw_self_floor","path":"scripts/draw_self_floor/draw_self_floor.yy",},"order":2,},
     {"id":{"name":"menu_scripts","path":"scripts/menu_scripts/menu_scripts.yy",},"order":5,},
     {"id":{"name":"player_ouch","path":"scripts/player_ouch/player_ouch.yy",},"order":3,},
+    {"id":{"name":"snd_menu_select","path":"sounds/snd_menu_select/snd_menu_select.yy",},"order":8,},
     {"id":{"name":"enemy_ouch","path":"scripts/enemy_ouch/enemy_ouch.yy",},"order":4,},
     {"id":{"name":"pause_scripts","path":"scripts/pause_scripts/pause_scripts.yy",},"order":10,},
     {"id":{"name":"tmln_title","path":"timelines/tmln_title/tmln_title.yy",},"order":0,},

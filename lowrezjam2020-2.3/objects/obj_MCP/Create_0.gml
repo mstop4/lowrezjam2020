@@ -25,7 +25,6 @@ music_gain = ini_read_real("Audio", "Music", 1);
 if (!ini_key_exists("Audio", "SFX")) {
 	ini_write_real("Audio", "SFX", 1);
 }
-
 sfx_gain = ini_read_real("Audio", "SFX", 1);
 
 ini_close();
