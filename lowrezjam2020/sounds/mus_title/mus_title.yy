@@ -10,7 +10,7 @@
     "name": "ag_music",
     "path": "audiogroups/ag_music",
   },
-  "soundFile": "mus_title",
+  "soundFile": "mus_title.wav",
   "duration": 13.7192631,
   "parent": {
     "name": "BGM",
