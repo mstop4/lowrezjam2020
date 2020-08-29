@@ -1,0 +1,1 @@
+pause_menu = inst_pause_menu;

@@ -1,0 +1,1 @@
+draw_surface(active_surf, 0, 0);

@@ -1,0 +1,1 @@
+firing_y_offset = 0;

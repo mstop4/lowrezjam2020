@@ -1,2 +1,2 @@
-start_alpha_delta  = 0;
-high_score_alpha_delta = 1/30;
+main_menu.menu_alpha.d = 0;
+high_score_alpha.d = 1/30;

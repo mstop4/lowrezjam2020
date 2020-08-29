@@ -1,0 +1,1 @@
+part_emitter_destroy(obj_particle_manager.part_sys, part_emit);

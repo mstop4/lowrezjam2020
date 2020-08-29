@@ -1,0 +1,1 @@
+main_menu = inst_main_menu;

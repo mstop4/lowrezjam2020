@@ -1,2 +1,2 @@
-title_alpha_delta = 0;
-start_alpha_delta = 1/30;
+title_alpha.d = 0;
+main_menu.menu_alpha.d = 1/30;

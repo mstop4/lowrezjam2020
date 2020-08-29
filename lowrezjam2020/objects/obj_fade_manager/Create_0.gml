@@ -1,2 +1,1 @@
-fade_dir = 0;
-fade_out_alpha = 0;
+fade_out_alpha = new Slider(1, 0, 0, 1);
