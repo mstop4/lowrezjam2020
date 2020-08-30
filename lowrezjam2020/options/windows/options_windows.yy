@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Dinothing Defender",
   "option_windows_executable_name": "Dinothing Defender",
-  "option_windows_version": "1.0.1.0",
+  "option_windows_version": "1.1.0.0",
   "option_windows_company_info": "Quadolor Games",
   "option_windows_product_info": "Dinothing Defender",
   "option_windows_copyright_info": "(c) 2020 Quadolor Games",

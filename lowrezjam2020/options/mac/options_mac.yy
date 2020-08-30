@@ -1,7 +1,7 @@
 {
   "option_mac_display_name": "Dinothing Defender",
   "option_mac_app_id": "com.quadolorgames.dinothingdefender",
-  "option_mac_version": "1.0.1.0",
+  "option_mac_version": "1.1.0",
   "option_mac_output_dir": "~/GameMakerStudio2/Mac",
   "option_mac_team_id": "ARY3U6V47X",
   "option_mac_signing_identity": "Developer ID Application:",
